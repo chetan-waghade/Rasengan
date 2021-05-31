@@ -55,7 +55,7 @@ function App() {
     }
 
 
-    await axios.post('http://localhost:3001/exec', { user: user })
+    await axios.post('/exec', { user: user })
       .then((result) => {
 
         if (result.data.statusCode === 417) {

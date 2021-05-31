@@ -5,6 +5,9 @@ const dotenv = require('dotenv')
 const app = express()
 const path = require('path')
 
+// PORT
+const PORT = process.env.PORT || 3001;
+
 // set cors
 app.use(cors())
 
@@ -53,4 +56,4 @@ app.post('/exec', (req, res) => {
         });
 })
 
-app.listen(3001, console.log("Listening on 3001"));
+app.listen(PORT, console.log("Listening on 3001"));

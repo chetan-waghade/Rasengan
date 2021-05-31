@@ -44,7 +44,7 @@ app.post('/exec', (req, res) => {
     };
 
     request({
-        url: process.env.API_URL,
+        url: "https://api.jdoodle.com/v1/execute",
         method: "POST",
         json: program
     },

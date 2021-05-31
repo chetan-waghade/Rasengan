@@ -39,8 +39,8 @@ app.post('/exec', (req, res) => {
         language: req.body.user.language,
         stdin: req.body.user.stdin,
         versionIndex: "3",
-        clientId: "8a7aeeb3317a60bd5f99313a2cf3d2de",
-        clientSecret: "c3001129c6a6a128cd48274839354bfd85a3e1a8bad941c8adbc10a6bdb813c1"
+        clientId: "",
+        clientSecret: ""
     };
 
     request({

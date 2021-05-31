@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'ace-builds/webpack-resolver'
 
 import AceEditor from 'react-ace'
 
@@ -59,7 +59,6 @@ function App() {
     await axios.post('/exec', { user: user })
       .then((result) => {
 
-        console.log(result)
         if (result.data.statusCode === 417) {
           setError(true)
         }

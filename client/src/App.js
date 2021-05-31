@@ -1,5 +1,5 @@
 import React from 'react'
-import 'ace-builds/webpack-resolver'
+
 
 import AceEditor from 'react-ace'
 

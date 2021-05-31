@@ -4,7 +4,9 @@
   "description": "Online Code Editor",
   "main": "server.js",
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "7.15.0",
+    "yarn": "1.22.10"
   },
   "scripts": {
     "client-install": "npm install -prefix client",
